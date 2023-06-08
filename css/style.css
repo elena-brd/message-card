@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inbox {
+    display: flex;
+    padding: 0.7rem 0;
+}
+
+.inbox:hover {
+    cursor: pointer;
+    background: #f4f4f4;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.btn-close {
+    font-size: 1.5rem;
+    color: #181818;
+}
+
+.btn-close:hover i {
+    color: #fb8500;
+    transform: rotate(135deg);
+}
+
+.close-card {
+    text-align: end;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f4f4;
+    color: #181818;
+    line-height: 1.4;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#card .card-container {
+    background: #fff;
+    min-width: 350px;
+    padding: 1rem 2rem;
+    box-shadow: 0 7px 10px -5px rgb(172, 172, 172, 0.7);
+}
+
+#card .title h2 {
+    font-size: 1.3rem;
+}
+
+/* search field */
+#card form {
+    margin: 1rem 0;
+    border: 3px solid #eaeaea;
+    padding: 1rem 0;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+#card form i {
+    margin: 0 0.5rem;
+    color: #b9b9b9;
+}
+
+#card input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #b9b9b9;
+}
+
+#card input {
+    border: none;
+    background: #f4f4f4;
+}
+
+#card input:focus {
+    outline: none;
+}
+
+#card input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+/* conversation section */
+#card .conversation-column h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#card .column {
+    margin: 1rem 0;
+}
+
+#card .user {
+    margin: 0.5rem 1rem;
+}
+
+#card .user p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#card .user small {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
